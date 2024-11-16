@@ -8,13 +8,27 @@
   p {
       line-height: 1; 
   }
+
+        body {
+            display: flex;
+            justify-content: center;  /* Centers horizontally */
+            align-items: center;      /* Centers vertically */
+            height: 100vh;            /* Ensure the body takes the full height of the viewport */
+            margin: 0;                /* Remove default margin */
+        }
+
+        .center-box {
+            width: 500px;
+            height: 100px;
+            background-color: white;
+            text-align: center;
+            line-height: 100px;       /* Centers text vertically */
+        }
+    </style>
 </style>
   </head>
   <body>
-    <br>
-    <br>
-    <br>
-  
+    <div class="center-box">
     <p style="font-size:20px; text-align: center; font-family: 'Lato light';">our new site is</p>
     <br>
     <p style="font-size:60px; text-align: center; font-family: 'Lato bold';">COMING SOON</p>
@@ -23,16 +37,10 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <p style="font-size:20px; text-align: center; font-family: 'Lato light';">aga bebynek | Architektin | aga@bebynek.com</p>
     <br>
-
     <br>
-
+    <br>
+  </div>
   </body>
 </html>
